@@ -1,0 +1,24 @@
+time:
+  start: 30.0
+  end: 330.0
+  fps: 30
+image:
+  file_prefix: image_
+  width: 160
+  height: 120
+  sliding:
+    sliding_step: 0
+    width: 160
+    height: 160
+  scaling:
+    scaling_step: 1
+    width: 80
+audio:
+  file_prefix: audio_
+  sampling_rate: 16000 # 44100
+  window_size: 0.04
+  n_hop_length: 100
+  n_mels: 128
+train:
+  width: 128
+  height: 128
